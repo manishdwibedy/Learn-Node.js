@@ -7,3 +7,4 @@ var greeting = {
 
 greeting.greet();
 greeting.greet.call({ greeting: 'Hola'});
+greeting.greet.apply({ greeting: 'Hey'});
